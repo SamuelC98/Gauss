@@ -1,5 +1,5 @@
 public class DateFile {
-    // readCount表示正在读的人数，初值为0,表示还没有人读。
+
     private int readerCount;
     // doreading表示读信号量，当doreading=true时不能进行写操作。
     private boolean doreading;
