@@ -5,6 +5,7 @@ public class DateFile {
     private boolean doreading;
     // dowriting表示写信号量，当dowriting=ture时不能进行读操作。
     //這是一條測試comment
+    //這是另一條測試comment
     private boolean dowriting;
 
     public DateFile() {
