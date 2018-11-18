@@ -12,9 +12,9 @@ public class Writer implements Runnable {
     public void run() {
         //while (true) {
         System.out.println("Writer " + writerNum + " comes here");
-        df.naps();
+        //df.naps();
         df.startWrite();
-        df.naps();
+        //df.naps();
         df.endWrite();
         //}
     }
