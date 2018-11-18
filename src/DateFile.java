@@ -4,6 +4,7 @@ public class DateFile {
     // doreading表示读信号量，当doreading=true时不能进行写操作。
     private boolean doreading;
     // dowriting表示写信号量，当dowriting=ture时不能进行读操作。
+    //這是一條測試comment
     private boolean dowriting;
 
     public DateFile() {
